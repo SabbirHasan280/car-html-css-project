@@ -40,10 +40,12 @@ p {
 /* all common css */
 
 /* navbar start */
+
 #navbar {
   position: relative;
 }
 /* navbar top start  */
+
 .navbar_top {
   display: flex;
   justify-content: space-between;
@@ -60,6 +62,7 @@ p {
   cursor: pointer;
 }
 /* navbar top end */
+
 .navbar_part {
   width: 100%;
   display: flex;
@@ -100,7 +103,9 @@ p {
   color: white;
 }
 /* navbar  end */
+
 /* banner start */
+
 #banner {
   background: #fff;
   padding: 50px 0px 30px 0px;
@@ -195,6 +200,7 @@ p {
 /* banner end */
 
 /* car show sign start */
+
 #input_box {
   padding: 30px 0px;
 }
@@ -309,6 +315,7 @@ p {
   padding: 15px 10px;
 }
 /* car show sign end */
+
 #input_file {
   padding: 20px 0px;
 }
