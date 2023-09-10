@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <section id="navbar">
+      <!--navbar_top start-->
+      <div class="navbar_top_full_width" style="background: #676874">
+        <div class="container row">
+          <div class="navbar_top col-md-12">
+            <div class="number">
+              <span><i class="fa-solid fa-phone"></i></span>
+              <span>(815) 993-0792</span>
+            </div>
+            <div class="social_icon">
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              <span><i class="fa-brands fa-instagram"></i></span>
+              <span><i class="fa-brands fa-twitter"></i></span>
+              <span><i class="fa-brands fa-youtube"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar_top end -->
+
+      <!-- navbar_part start -->
+      <div class="navbar_full_width" style="background: black">
+        <div class="container row">
+          <div class="navbar_part col-md-12">
+            <div class="logo">
+              <img src="../images/logo.png" alt="logo" />
+            </div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Car Show Signs</a></li>
+              <li><a href="#">Car Show Boards</a></li>
+              <li><a href="#">Car Show Board Gallery</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="icon_box">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
+              <span><i class="fa-regular fa-user"></i></span>
+              <span><i class="fa-sharp fa-solid fa-bars"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar_part end -->
+    </section>
+    <!-- navbar end -->
+
+    <!-- banner start  -->
+    <section id="banner">
+      <div class="container row">
+        <div class="banner_part col-md-12">
+          <div class="banner_text">
+            <div class="b_top_text"><p>Car Show Signs</p></div>
+            <div class="b_button"><a href="#">see all</a></div>
+          </div>
+          <div class="banner_all">
+            <div class="b_image1">
+              <img src="../images/b_1.png" />
+            </div>
+            <div class="b_image2">
+              <img class="space" src="../images/b_2.png" />
+              <img src="../images/b_3.png" />
+            </div>
+            <div class="b_image3">
+              <img class="space" src="../images/b_4.png" />
+              <img class="space" src="../images/b_5.png" />
+              <img src="../images/b_6.png" />
+            </div>
+          </div>
+          <h3 class="b_h3">Car Show Signs</h3>
+          <h4 class="b_h4">$149.00-$299.00</h4>
+          <p class="b_p">
+            Car Show Signs custom designed for your car! Built to last seasons,
+            not shows, <br />our car show signs come with everything you need
+            for your next car show!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- banner end  -->
+
+    <!-- car show sign start -->
+    <section id="input_box">
+      <div class="container">
+        <div class="row">
+          <div class="car_full">
+            <div class="option_part">
+              <div class="col-lg-3 input_text">
+                <h4>Car Show Sign Size</h4>
+              </div>
+              <div class="col-lg-7 input_flex">
+                <input type="text" id="text_value"/>
+                <select id="ddselect" onchange="ddselect()">
+                  <option>Select Car Name</option>
+                  <option>BMW</option>
+                  <option>Mercedes-Benz</option>
+                  <option>Audi</option>
+                  <option>Toyota</option>
+                </select>
+              </div>
+              <div class="col-lg-2 input_p">
+                <p>Clear Selection</p>
+              </div>
+            </div>
+            <!-- ammount -->
+            <div class="ammount">
+              <div class="col-lg-6">
+                <p><del>$249.00</del><span>$199.00</span></p>
+              </div>
+            </div>
+            <!-- input one -->
+            <div class="input_box">
+              <div class="col-lg 3">
+                <p>Vehicle Year <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input type="text" id="text_Vehicle"/>
+              </div>
+            </div>
+            <!-- input two -->
+            <div class="input_box">
+              <div class="col-lg 3">
+                <p>Vehicle Make <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input />
+              </div>
+            </div>
+            <!-- input three -->
+            <div class="input_box">
+              <div class="col-lg 3">
+                <p>vehicle Model <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input />
+              </div>
+            </div>
+            <!-- textarea one -->
+            <div class="input_box">
+              <div class="col-lg 3">
+                <p>Vehicle Info <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <textarea class="area_text"> </textarea>
+              </div>
+            </div>
+            <!-- textarea two -->
+            <div class="input_box">
+              <div class="col-lg 3">
+                <p>Additional Info <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <textarea class="area_text"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- car show sign end -->
+
+    <!-- input type file start -->
+    <!-- <section id="input_file">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="file_all">
+              <p>Images for Sign</p>
+              <input type="checkbox"/><span>I hereby certify all images are my property, and/or authorized for use for
+                this product</span>
+                <span>
+                </span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- input type file end -->
+
+    <section id="card">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 all_button">
+            <div class="card_iteam_one">
+              <div class="card_top_button">
+                <!-- <button>+</button>
+                <button>1</button>
+                <button>-</button> -->
+                <div class="asad">
+                  <button id="btn1" class="top_last" onclick="fun1()">Add to cart</button>
+                </div>
+                <div style="flex-direction: column; padding: 20px; width: 400px; background: purple; margin-left: 200px;text-align: center;">
+                <p id="p_one">a</p>
+                <p id="p_two">s</p>
+                <p id="p_three">d</p>
+                <p id="p_four">f</p>
+                  
+                </div>
+              </div>
+              <p>
+                SKU: 12x18 Category: Uncategorized Tags: Car Show Display, Car
+                Show Display Sign, Car Show Display Signs, car show <br />
+                displays, car show signs, custom car sign, personalized car signs,
+                show car signs
+              </p>
+            </div>
+            <div class="card_iteam_two">
+              <div class="card_botom_button">
+                <button onclick="openCity('description')">Description</button>
+                <button onclick="openCity('information_all')">Additional information</button>
+                <button onclick="openCity('all_review')">Reviews (0)</button>
+              </div>
+              <div id="description" class="city">
+                <h1>Description</h1>
+                <p>
+                  Car show signs designed specifically for your car! We use your
+        car’s image, your car's info, and anything else you want to share
+        about your car! Available in 3 sizes, our car show signs are
+        printed with 12-color photo printers instead of your typical 3
+        color inkjet. After printing, we mount them in our custom sign
+        holder that requires no additional easel or stand to display….
+        just slip the leg in back of the holder and your done! Our car
+        show signs are the best in the industry, and come with a 1 year
+        warranty! We want you to enjoy showing your car with a sign for
+        seasons, not shows… that’s why we stand behind our car show signs!
+        Choose our 12×18 sign for stock or lightly modified vehicles…. or
+        to recognize a shop for their hard work. Our 18×24 is our most
+        popular sign, which is great for both stock or modified vehicles.
+        Pretty much anything will fit! If you want to display a lot of
+        information or images our 24×36 is the right size for you… plenty
+        of room for multiple images, long modification and spec lists, or
+        a vehicle’s history. Need some ideas on what to put on your show
+        sign? Check out our Car Show Sign Portfolio to get some great
+        ideas! Simply fill out the form below with the information about
+        your car, and upload an image of your car. Once we receive your
+        ormount, and ship your sign within 2-3 business days of your der,
+        we will send you a draft of your car show display sign via email.
+        Once you approve the draft of your sign we will print,
+        approval!your car\’s info, and anything else you want to share
+        about your car! Available in 3 sizes, our car show signs are
+        printed with 12-color photo printers instead of your typical 3
+        color inkjet.If you want to display a lot of information or images
+        our 24×36 is the right size for you… plenty of room for multiple
+        images, long modification and spec lists, or a vehicle’s history.
+        Need some ideas on what to put on your show sign? Check out our
+        Car Show Sign Portfolio to get some great ideas! Simply fill out
+        the form below with the information about your car, and upload an
+        image of your car. Once we receive your order, we will send you a
+        draft of your car show display sign via email.
+                </p>
+              </div>
+              <!-- information input one -->
+              <div id="information_all" class="city" style="display: none;">
+                <h1>Additional information</h1>
+                <div class="information">
+                  <div class="col-lg 3">
+                    <p>Weight <span>*</span></p>
+                  </div>
+                  <div class="col-lg-9">
+                    <input value="4.8 lbs"/>
+                  </div>
+                </div>
+             <!-- information input two -->
+             <div class="information">
+              <div class="col-lg 3">
+                <p>Dimensions <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input value="26 × 30 × 1 in"/>
+              </div>
+            </div>
+             <!-- information input three -->
+             <div class="information">
+              <div class="col-lg 3">
+                <p>Vehicle Year <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input value="vehicleyear"/>
+              </div>
+            </div>
+             <!-- information input four -->
+             <div class="information">
+              <div class="col-lg 3">
+                <p>Car Show Sign Size <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input value="12×18, 18×24, 24×36"/>
+              </div>
+            </div>
+             <!-- information input five -->
+             <div class="information">
+              <div class="col-lg 3">
+                <p>Make an 
+                  Additional Copy <span>*</span></p>
+              </div>
+              <div class="col-lg-9">
+                <input value="12×18, 18×24, 24×36 No"/>
+              </div>
+            </div>
+              </div>
+              <!-- review -->
+              <div id="all_review" class="city" style="display: none;">
+                <h1>Reviews</h1>
+                <p>There are no reviews yet.</p>
+                <h4>Be the first to review “Car Show Signs”</h4>
+                <p>Your email address will not be published. Required fields are marked *</p>
+                <h4>Your rating *</h4>
+                <h6>
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </h6>
+                  <!-- review one -->
+                  <div class="review_item">
+                    <div class="col-lg 3">
+                      <p>Name <span>*</span></p>
+                    </div>
+                    <div class="col-lg-9">
+                      <input />
+                    </div>
+                  </div>
+                  <!-- review two -->
+                  <div class="review_item">
+                    <div class="col-lg 3">
+                      <p>Email <span>*</span></p>
+                    </div>
+                    <div class="col-lg-9">
+                      <input />
+                    </div>
+                  </div>
+                  <!-- review three -->
+                  <div class="review_item">
+                    <div class="col-lg 3">
+                      <p>Your review <span>*</span></p>
+                    </div>
+                    <div class="col-lg-9">
+                      <textarea class="area_text"></textarea>
+                    </div>
+                  </div>
+                  <div class="buttom_input">
+                    <input type="checkbox"/><span class="checkbox_text">Save my name, email, and website in this browser for the next time I comment.</span>
+                  </div>
+              </div>
+              <!-- review -->
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product part start -->
+    <section id="product_area">
+      <div class="container">
+        <div class="row gx-10">
+          <div class="product_text">
+            <div class="p_top_text"><p>Related products</p></div>
+            <div class="p_button"><a href="#">see all</a></div>
+          </div>
+          <!-- product one -->
+          <div class="col-xl-4">
+            <div class="single_product">
+              <div class="product_items" style="margin-bottom: 40px;">
+                <div class="product_one">
+                  <div class="product_img">
+                    <img src="../images/items1.png" />
+                  </div>
+                  <div class="gift">
+                    <h4>Gift Cards</h4>
+                    <h5>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span>(120)</span>
+                    </h5>
+                    <button class="gift_b_1">$149.00 – $299.00</button>
+                    <button class="gift_b_2">Add to cart</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- product two -->
+          <div class="col-xl-4">
+            <div class="single_product">
+              <div class="product_items">
+                <div class="product_one">
+                  <div class="product_img">
+                    <img src="../images/items2.png" />
+                  </div>
+                  <div class="gift">
+                    <h4>Car Show Boards</h4>
+                    <h5>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span>(90)</span>
+                    </h5>
+                    <button class="gift_b_1">$149.00 – $299.00</button>
+                    <button class="gift_b_2">Add to cart</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- product three -->
+          <div class="col-xl-4">
+            <div class="single_product">
+              <div class="product_items">
+                <div class="product_one">
+                  <div class="product_img">
+                    <img src="../images/items3.png" />
+                  </div>
+                  <div class="gift">
+                    <h4>Ungodly Large Pictures</h4>
+                    <h5>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span>(150)</span>
+                    </h5>
+                    <button class="gift_b_1">$149.00 – $299.00</button>
+                    <button class="gift_b_2">Add to cart</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- product four -->
+          <div class="col-xl-4">
+            <div class="single_product">
+              <div class="product_items">
+                <div class="product_one">
+                  <div class="product_img">
+                    <img src="../images/items3.png" />
+                  </div>
+                  <div class="gift">
+                    <h4>Gpsum dolor</h4>
+                    <h5>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span>(80)</span>
+                    </h5>
+                    <button class="gift_b_1">$149.00 – $299.00</button>
+                    <button class="gift_b_2">Add to cart</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- product five -->
+          <div class="col-xl-4">
+            <div class="single_product">
+              <div class="product_items">
+                <div class="product_one">
+                  <div class="product_img">
+                    <img src="../images/items2.png" />
+                  </div>
+                  <div class="gift">
+                    <h4>Dolor sitamet</h4>
+                    <h5>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span><i class="fa-solid fa-star"></i></span>
+                      <span>(60)</span>
+                    </h5>
+                    <button class="gift_b_1">$149.00 – $299.00</button>
+                    <button class="gift_b_2">Add to cart</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- product six -->
+        <div class="col-xl-4">
+          <div class="single_product">
+            <div class="product_items">
+              <div class="product_one">
+                <div class="product_img">
+                  <img src="../images/items1.png" />
+                </div>
+                <div class="gift">
+                  <h4>Adipisicing elit</h4>
+                  <h5>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>(190)</span>
+                  </h5>
+                  <button class="gift_b_1">$149.00 – $299.00</button>
+                  <button class="gift_b_2">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer part start -->
+    <section id="footer">
+      <div class="container">
+        <div class="footer_all">
+          <div class="row">
+            <div class="col-xl-2">
+              <div class="footer_img">
+                <img src="../images/logo.png" alt="logo" />
+              </div>
+            </div>
+
+            <div class="col-xl-3">
+              <div class="footer_quick">
+                <h4 class="footer_h4_shot">Quick Links</h4>
+                <li>Home</li>
+                <li>Show Board Portfolio</li>
+                <li>Cool Links</li>
+                <li>Privacy Policy</li>
+              </div>
+            </div>
+
+            <div class="col-xl-3">
+              <div class="footer_useful">
+                <h4>Useful Links</h4>
+
+                <li>Car Show Signs</li>
+                <li>Car Show Boards</li>
+                <li>Car Show Board Gallery</li>
+                <li>Corvette Car Show Boards</li>
+                <li>Camaro Car Show Boards</li>
+                <li>Mustang Car Show Boards</li>
+                <li>Car Show Display Ideas</li>
+                <li>Frequently Asked Questions</li>
+                <li>Contact Us</li>
+              </div>
+            </div>
+
+            <div class="col-xl-2">
+              <div class="footer_tuch">
+                <h4>Get In Touch</h4>
+                <ul>
+                  <li class="footer_tuch_i">
+                    <i
+                      class="fa-sharp fa-solid fa-location-dot"
+                      style="color: red"
+                    ></i>
+                  </li>
+                  <li>1452 N 30th Rd -</li>
+                  <li>Ottawa, IL 61350.</li>
+                  <li class="Contact_bold">Contact Us Online</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-2">
+              <div class="footer_social">
+                <h4>Get Social</h4>
+                <span><i class="fa-brands fa-facebook-f"></i></span>
+                <span><i class="fa-brands fa-youtube"></i></span>
+                <span><i class="fa-brands fa-linkedin-in"></i></span>
+                <span><i class="fa-brands fa-pinterest-p"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer part end -->
+    
+    <script>
+      // option
+      function ddselect(){
+        var d = document.getElementById("ddselect");
+        var displaytext = d.options[d.selectedIndex].text;
+        document.getElementById("text_value").value = displaytext;
+      }
+      // option
+    function openCity(cityName) {
+      var i;
+      var x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(cityName).style.display = "block";  
+    }
+    // input value save
+    const text1 = document.getElementById("text_value");
+    const btn1 = document.getElementById("btn1");
+    const text = document.getElementById("p_one");
+    const texttwo = document.getElementById("p_one");
+    const text2 = document.getElementById("text_Vehicle")
+    function fun1 (){
+      // select box
+      if(text1.value == ""){
+        alert("Please select car iteam");
+      }else{
+      text.innerHTML = text1.value;
+      } 
+    }
+    </script>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
