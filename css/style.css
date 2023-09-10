@@ -395,6 +395,7 @@ p {
 }
 
 /* information input part */
+
 .card_iteam_two #information_all {
   background: #f5f3f3;
   padding: 30px 30px;
@@ -430,6 +431,7 @@ p {
   margin-bottom: 20px;
 }
 /* review part start*/
+
 .card_iteam_two #all_review {
   background: #f5f3f3;
   padding: 10px 30px 50px 30px;
@@ -504,6 +506,7 @@ p {
 /* card part end */
 
 /* product start */
+
 #product_area {
   padding: 50px 0px;
 }
@@ -575,6 +578,7 @@ p {
 /* product end */
 
 /* footer part start */
+
 #footer {
   padding: 40px 0px;
   background: #dbdbdb;
